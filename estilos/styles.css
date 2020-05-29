@@ -1,0 +1,185 @@
+            /* Menu ----------------------- */
+            
+            @font-face {
+                font-family: praktika;
+                src: url("../fonts/PraktikaRoundedExtraBold.otf");
+            }
+            
+            body {
+                background-color: #ffffff;
+            }
+            
+            a {
+                text-transform: uppercase;
+                font-family: 'Nunito', helvetica, sans-serif !important;
+                text-decoration: none !important;
+                color: #292929 !important;
+            }
+            
+            a:hover {
+                border-bottom: solid !important;
+                color: #a5a5a5 !important;
+                text-decoration: none !important;
+            }
+            
+            nav div {
+                margin-left: 25%;
+            }
+            
+            #search {
+                margin-top: 10px !important;
+            }
+            
+            #contactoTop a {
+                margin-right: 1em;
+                border-bottom: none !important;
+                color: none !important;
+                text-decoration: none !important;
+                margin-bottom: 1em;
+            }
+            
+            #contactoTop a:hover {
+                border-bottom: none !important;
+                color: none !important;
+                text-decoration: none !important;
+            }
+            /* Inicio ------------------------*/
+            
+            #blockquote1 {
+                padding-top: 50px;
+                font-family: 'Nunito', helvetica, sans-serif;
+                margin-top: 1em;
+            }
+            
+            .card {
+                max-width: 1200px;
+            }
+            
+            #card1 {
+                margin-top: 50px;
+            }
+            /* Nuestro Box ------------------- */
+            
+            #blockquote2 {
+                padding-top: 2em;
+                font-family: 'Nunito', helvetica, sans-serif;
+            }
+            
+            #carouselExampleIndicators {
+                max-width: 1200px;
+            }
+            
+            #nuestroBox {
+                margin-top: 3em;
+                margin-bottom: 1em;
+                text-align: center;
+                font-family: 'praktika', helvetica, sans-serif;
+                text-transform: uppercase;
+                color: #3d3d3d;
+            }
+            
+            #blockquote3,
+            #blockquote4 {
+                padding-top: 3em;
+                font-family: 'Nunito', helvetica, sans-serif;
+            }
+            /* Servicios y Planes ----------------*/
+            
+            #servicios {
+                margin-top: 3em;
+                margin-bottom: 1em;
+                text-align: center;
+                font-family: 'praktika', helvetica, sans-serif;
+                text-transform: uppercase;
+                color: #3d3d3d;
+            }
+            
+            #clasePrueba,
+            #abonos {
+                margin-top: 2em;
+                max-width: 1200px;
+            }
+            /* Sobre Nosotros ----------------*/
+            
+            #sobreNosotros {
+                margin-top: 3em;
+                margin-bottom: 1em;
+                text-align: center;
+                font-family: 'praktika', helvetica, sans-serif;
+                text-transform: uppercase;
+                color: #3d3d3d;
+            }
+            
+            #horariosCard,
+            #sobreMotiv,
+            #tituloMotiv {
+                margin: 10px 30px;
+            }
+            
+            #crossfitJournal {
+                margin-top: 4em;
+            }
+            
+            #crossfitJournal a:hover {
+                border-bottom: none !important;
+                text-decoration: none !important;
+                opacity: 80%;
+            }
+            /* Footer ------------------ */
+            /* Codigos para mobile y tablet  -------------- */
+            
+            @media only screen and (max-width: 375px) {
+                blockquote {
+                    font-size: 15px !important;
+                    margin-top: 0em !important;
+                    margin: 20px;
+                    padding-top: 1em !important;
+                }
+                p {
+                    font-size: 12px !important;
+                }
+                h5,
+                h4 {
+                    font-size: 15px !important;
+                }
+                #card1 {
+                    margin-top: 0em !important;
+                }
+                #contactoTop img {
+                    width: 20px;
+                    margin-top: 1em !important;
+                }
+                #nuestroBox,
+                #servicios {
+                    margin-top: 1em;
+                    margin-bottom: 1em;
+                    font-size: 15px !important;
+                }
+                #sobreMotiv,
+                #tituloMotiv {
+                    margin: 0;
+                }
+                #horariosCard {
+                    width: 100% !important;
+                }
+                #crossfitJournal {
+                    margin-top: 2em;
+                }
+                #crossfitJournal a img {
+                    width: 90%;
+                    height: 90%;
+                }
+            }
+            
+            @media only screen and (min-width: 768px) and (max-width: 1024px) {
+                .card h5,
+                p {
+                    margin: 30px;
+                }
+            }
+            
+            @media only screen and (min-width: 1024px) and (max-width: 1024px) {
+                nav div {
+                    margin-left: 10% !important;
+                }
+            }
